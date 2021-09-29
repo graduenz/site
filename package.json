@@ -11,5 +11,12 @@
     "next": "10.2.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.4.1",
+    "autoprefixer": "^10.3.6",
+    "flag-icon-css": "^3.5.0",
+    "postcss": "^8.3.8",
+    "tailwindcss": "^2.2.16"
   }
 }
