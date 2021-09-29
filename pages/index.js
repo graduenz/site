@@ -31,7 +31,7 @@ export default function Home() {
       </div>
 
       <div className="mt-10 flex flex-col items-center">
-        <p className="font-medium">
+        <p className="font-medium text-center">
           I am a .NET Engineer and you will know anything else in the links below:
         </p>
         <div
@@ -64,10 +64,10 @@ export default function Home() {
             LinkedIn
           </a>
         </div>
-        <p className="font-medium mt-10">
+        <p className="font-medium mt-10 text-center">
           Please only contact me via LinkedIn.
         </p>
-        <p className="font-medium mt-4 mb-4">
+        <p className="font-medium mt-4 mb-4 text-center">
           Thanks for visiting!
         </p>
         <FlagBR height={24} />
