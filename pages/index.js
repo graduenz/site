@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 
-import 'flag-icon-css/css/flag-icon.min.css'
+import FlagBR from 'flag-icon-css/flags/4x3/br.svg'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFileDownload } from '@fortawesome/free-solid-svg-icons'
@@ -9,7 +9,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 export default function Home() {
   return (
-    <main className="mx-auto flex flex-col h-screen items-center px-8">
+    <main className="mx-auto flex flex-col h-screen items-center px-4">
       <Head>
         <title>Guilherme Augusto Raduenz - Back End Software Engineer</title>
         <link rel="icon" href="/favicon.ico" />
@@ -22,7 +22,7 @@ export default function Home() {
           className="rounded-lg"
           width={96}
           height={96} />
-        <p className="mt-8 text-2xl font-bold">
+        <p className="mt-8 text-2xl font-bold text-center">
           Guilherme Augusto Raduenz
         </p>
         <p className="mt-1 text-md font-medium">
@@ -70,7 +70,7 @@ export default function Home() {
         <p className="font-medium mt-4 mb-4">
           Thanks for visiting!
         </p>
-        <span className="flag-icon flag-icon-br mt-4"></span>
+        <FlagBR height={24} />
       </div>
     </main>
   )
