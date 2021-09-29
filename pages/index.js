@@ -9,13 +9,13 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 export default function Home() {
   return (
-    <main className="mx-auto flex flex-col h-screen items-center">
+    <main className="mx-auto flex flex-col h-screen items-center px-8">
       <Head>
         <title>Guilherme Augusto Raduenz - Back End Software Engineer</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="mt-20 flex flex-col items-center px-8">
+      <div className="mt-20 flex flex-col items-center">
         <Image
           src="/profile.png"
           alt="ugly dev"
@@ -30,14 +30,15 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="mt-10 flex flex-col items-center px-8">
+      <div className="mt-10 flex flex-col items-center">
         <p className="font-medium">
           I am a .NET Engineer and you will know anything else in the links below:
         </p>
-        <div className="mt-10 flex flex-col space-y-2">
+        <div
+          className="mt-10 flex flex-col space-y-2">
           <a
             href="javascript:alert('coming soon')"
-            className="w-40 shadow rounded text-sm font-medium px-6 py-3 flex flex-row">
+            className="shadow rounded text-sm font-medium px-6 py-3 flex flex-row">
             <FontAwesomeIcon
               icon={faFileDownload}
               height={16}
