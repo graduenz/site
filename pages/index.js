@@ -37,7 +37,7 @@ export default function Home() {
         <div
           className="mt-10 flex flex-col space-y-2">
           <a
-            href="javascript:alert('coming soon')"
+            href="/api/resume"
             className="shadow rounded text-sm font-medium px-6 py-3 flex flex-row">
             <FontAwesomeIcon
               icon={faFileDownload}
